@@ -1,0 +1,38 @@
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs e editores
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Arquivos de log e cache
+*.log
+.history/
+
+# Flutter/Dart/Pub related
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Arquivos de dependência de plataforma (essencial)
+android/.gradle/
+android/app/src/main/jniLibs/
+ios/Pods/
+ios/Runner.xcworkspace/xcshareddata/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Flutter/ephemeral_plugins/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
